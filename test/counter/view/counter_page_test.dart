@@ -14,7 +14,7 @@ void main() {
   group('CounterPage', () {
     testWidgets('renders CounterView', (tester) async {
       await tester.pumpApp(const CounterPage());
-      expect(find.byType(CounterView), findsOneWidget);
+      expect(find.byType(HomeView), findsOneWidget);
     });
   });
 
@@ -31,7 +31,7 @@ void main() {
       await tester.pumpApp(
         BlocProvider.value(
           value: counterCubit,
-          child: const CounterView(),
+          child: const HomeView(),
         ),
       );
       expect(find.text('$state'), findsOneWidget);
@@ -44,7 +44,7 @@ void main() {
       await tester.pumpApp(
         BlocProvider.value(
           value: counterCubit,
-          child: const CounterView(),
+          child: const HomeView(),
         ),
       );
       await tester.tap(find.byIcon(Icons.add));
@@ -58,7 +58,7 @@ void main() {
       await tester.pumpApp(
         BlocProvider.value(
           value: counterCubit,
-          child: const CounterView(),
+          child: const HomeView(),
         ),
       );
       await tester.tap(find.byIcon(Icons.remove));

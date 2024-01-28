@@ -1,0 +1,4 @@
+#Tue Jan 16 17:10:05 GMT+09:00 2024
+base.0=C\:\\Users\\yamam\\AndroidStudioProjects\\kakeibo_app\\build\\app\\intermediates\\dex\\productionDebug\\mergeDexProductionDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

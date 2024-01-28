@@ -1,0 +1,1 @@
+ C:\\Users\\yamam\\AndroidStudioProjects\\kakeibo_app\\.dart_tool\\flutter_build\\44a48fa958f0838676b87113f84cce1a\\native_assets.yaml: 
